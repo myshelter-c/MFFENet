@@ -1,0 +1,1 @@
+python -u -m torch.distributed.launch --nproc_per_node=2 train.py --model_name M_640x192_name --png --batch_size 8 --data_path data_path/kitti
